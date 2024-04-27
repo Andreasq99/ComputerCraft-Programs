@@ -7,13 +7,13 @@ while true do
         local isRunning = false
         local total = multishell.getCount()
         for i = 1,total, 1 do
-            if multishell.getTitle(i) == "postRedstone" then
+            if multishell.getTitle(i) == "readRedstone" then
                 isRunning = true
             end
         end
         if not isRunning then
-            shell.openTab("postRedstone.lua")
-            print("starting up postRedstone.lua.")
+            shell.openTab("readRedstone.lua")
+            print("starting up readRedstone.lua.")
         end
     end
 end

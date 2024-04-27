@@ -35,30 +35,6 @@ while(true) do
         index = 0
     end
     
---    id1, message1 = rednet.receive()
---    index = getId(a, id1)
---    print(message1)
---    table.remove(a, index)
---    index = 0
-    
-    
---    id2, message2 = rednet.receive()
---    index = getId(a, id2)
---    print(message2)
---    table.remove(a, index)
---    index = 0
-
---    id3, message3 = rednet.receive()
---    index = getId(a, id3)
---    print(message3)
---    table.remove(a, index)
---    index = 0
-    
---    id4, message4 = rednet.receive()
---    index = getId(a,id4)
---    print(message4)
---    index = 0
-    
     timeout = 20*math.max(table.unpack(b))
     rednet.broadcast(timeout,"timer")
     sleep(timeout+2)
