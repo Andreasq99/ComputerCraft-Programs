@@ -26,7 +26,7 @@ while(true) do
     a[3] = 5
     a[4] = 6
     
-    for i=0,3,1 do
+    for i=1,4,1 do
         id, message = rednet.receive()
         index = getId(a,id)
         print(message)
