@@ -39,7 +39,7 @@ and paste the folder. Now load up Minecraft!
 Each program has its own use case. Refer to the README.md file in each folder to see how to use the program.
 
 ## Contributing <a name="contributing"></a>
-Feel free to fork the project, and message me if you create something cool!
+Feel free to fork the project or create pull requests, and message me if you create something cool!
 
 
 
