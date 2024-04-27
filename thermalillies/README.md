@@ -6,4 +6,9 @@ This collection of programs is used to make a fully-automated mana-generating se
 ## Installation
 This setup is installed on a network of computers: one to output redstone, one for logging rednet broadcasts and displaying on the monitor, and as many as you want for reading the cooldown time of the lillies, one for each lily.
 
-To start, place your lillies at least one block apart, with a dispenser in the ground 
+<ol>
+<li> <h2>Lily placement and redstone</h2>
+To start, place your lillies at least one block apart, with a dispenser in the ground facing up next to each one:
+![image](./README-assets/lily-placement.png)
+behind each 
+</ol>
